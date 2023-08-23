@@ -7,44 +7,8 @@
 	"containerUser": "vscode",
 	"customizations": {
 		"vscode": {
-			"extensions": [
-				"ms-azuretools.vscode-docker",
-				"kamikillerto.vscode-colorize",
-				"WallabyJs.console-ninja",
-				"dsznajder.es7-react-js-snippets",
-				"sidthesloth.html5-boilerplate",
-				"ecmel.vscode-html-css",
-				"hwencc.html-tag-wrapper",
-				"tal7aouy.indent-colorizer",
-				"esbenp.prettier-vscode",
-				"rvest.vs-code-prettier-eslint",
-				"ChakrounAnas.turbo-console-log",
-				"steoates.autoimport",
-				"bradlc.vscode-tailwindcss",
-				"bourhaouta.tailwindshades",
-				"formulahendry.auto-rename-tag",
-				"heybourn.headwind"
-			],
-			"settings": {
-				"editor.formatOnSave": true,
-				"editor.defaultFormatter": "esbenp.prettier-vscode",
-				"prettier.arrowParens": "always",
-				"prettier.bracketSpacing": true,
-				"prettier.embeddedLanguageFormatting": "auto",
-				"prettier.endOfLine": "lf",
-				"prettier.enable": true,
-				"prettier.htmlWhitespaceSensitivity": "css",
-				"prettier.ignorePath": ".prettierignore",
-				"prettier.printWidth": 80,
-				"prettier.proseWrap": "preserve",
-				"prettier.quoteProps": "as-needed",
-				"prettier.semi": true,
-				"prettier.singleQuote": false,
-				"prettier.trailingComma": "es5",
-				"prettier.tabWidth": 4,
-				"prettier.withNodeModules": false,
-				"console-ninja.showWhatsNew": false
-			}
+			"extensions": ["ms-azuretools.vscode-docker"],
+			"settings": {}
 		}
 	},
 	"postStartCommand": "npm install && npm run dev"
