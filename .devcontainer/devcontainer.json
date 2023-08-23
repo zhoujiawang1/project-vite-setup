@@ -1,5 +1,5 @@
 {
-	"name": "vite-project",
+	"name": "my-vite-project-settings",
 	"build": {
 		"dockerfile": "Containerfile"
 	},
