@@ -1,0 +1,5 @@
+FROM node:bullseye-slim
+RUN groupadd -g 1001 vscode \
+    && useradd -u 1001 -g vscode -s /bin/bash -m vscode
+
+USER vscode
